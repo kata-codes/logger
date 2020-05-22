@@ -1,0 +1,5 @@
+## production
+bin/
+
+## dependencies
+node_modules/

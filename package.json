@@ -1,0 +1,27 @@
+{
+	"name": "@kata-codes/logger",
+	"description": "My first attempt at a basic logger.",
+	"main": "bin/index.js",
+	"version": "0.1.0",
+	"license": "MIT",
+	"author": "kata-gatame <nathan@kata.codes>",
+	"repository": "git://github.com/kata-codes/logger.git",
+	"homepage": "git://github.com/kata-codes/logger#readme",
+	"bugs": "git://github.com/kata-codes/logger/issues",
+	"scripts": {
+		"code:lint": "eslint ./src/**/*.ts",
+		"code:build": "tsc -p ./tsconfig.json"
+	},
+	"eslintConfig": {
+		"extends": "@kata-codes/eslint-config"
+	},
+	"dependencies": {
+		"date-fns": "^2.14.0"
+	},
+	"devDependencies": {
+		"@kata-codes/eslint-config": "github:kata-codes/eslint-config",
+		"@types/node": "14.0.5",
+		"eslint": "^7.0.0",
+		"typescript": "3.7.5"
+	}
+}
